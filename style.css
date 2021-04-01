@@ -1,0 +1,210 @@
+﻿/*Reset CSS*/
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Avenir, sans-serif;
+}
+
+nav{
+    width: 100%;
+    margin: 0px auto 40px auto;
+    background-color: rgb(197, 0, 0);
+    position: fixed;
+    top: 10px;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav li{
+    float: left;
+    width: 20%;/*100% divis� par le nombre d'�l�ments de menu*/
+    text-align: center;/*Centre le texte dans les �l�ments de menu*/
+}
+
+/*Evite que le menu n'ait une hauteur nulle*/
+nav ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav a{
+    display: block; /*Toute la surface sera cliquable*/
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-bottom: 2px solid transparent;/*Evite le d�calage des �l�ments sous le menu � cause de la bordure en :hover*/
+    padding: 10px 0px;/*Agrandit le menu et espace la bordure du texte*/
+}
+
+nav a:hover{
+    color: rgb(255, 251, 0);
+    border-bottom: 4px solid rgb(251, 255, 0);
+}
+
+h1 {
+text-align: center;
+font-size:30px;
+margin-top: 3%;
+color: rgb(255, 255, 255);
+        }
+
+h2 {
+text-align: center;
+font-size:25px;
+color: white;
+        }
+        
+
+        
+.presentation {
+margin: auto;
+margin-top: 10%;
+width: 30%;
+height: 120px;
+text-align: justify;
+padding: 20px;
+border: 2px solid rgb(255, 255, 255);
+border-radius:20px;
+font: 16px;
+color: #fffdfd;
+background: rgb(146, 7, 7)	;
+overflow:hidden;
+overflow: scroll;
+}
+
+.titre {
+    margin: auto;
+    margin-top: 2%;
+    align-items: center;
+    width: 30%;
+    height: 75px;
+    text-align: justify;
+    padding: 5px;
+    border: 10px solid rgb(253, 4, 4);
+    border-radius:60px;
+    font: 16px;
+    color: #fd0808;
+    background: rgb(255, 254, 254)	;
+    overflow:hidden;
+    overflow: scroll;
+    }
+
+    .conteneur {
+        margin: auto;
+        margin-top: 1%;
+        width: 30%;
+      height:450px;
+      text-align: justify;
+        padding: 80px;
+        border: 2px solid rgb(255, 255, 255);
+      border-radius:30px;
+        font: 16px;
+      color: #ffffff;
+      background: rgb(146, 7, 7)	;
+      overflow:hidden;
+      overflow: scroll;
+      }
+
+.footer {
+    text-align:center;
+    position: fixed;
+    bottom:0;
+    width:100%;
+    display:inline-block;
+    vertical-align:top;
+    font-size:9px;
+padding: 5px;
+border: 2px solid white;
+background: white;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+html { 
+background: url(images/mario.jpg) no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+
+h3 {
+    text-align: center;
+font-size:75px;
+font-weight: bolder;
+color: rgb(253, 2, 2);
+        }
+
+        .soustitre {
+            margin: auto;
+            margin-top: 4%;
+            align-items: center;
+            width: 15%;
+            height: 50px;
+            text-align: justify;
+            padding: 5px;
+            border: 7px solid rgb(253, 4, 4);
+            border-radius:60px;
+            font: 16px;
+            color: #fd0808;
+            background: rgb(255, 254, 254)	;
+            overflow:hidden;
+            overflow: scroll;
+            }       
+
+h4 {
+    text-align: center;
+font-size:40px;
+font-weight: bolder;
+color: rgb(255, 0, 0);
+margin-top: 1%;
+}
+
+
+
+
+body{cursor: url("curseur.png"), pointer;   }
+p{cursor: url("curseur.png"), pointer;   }
+a{cursor: url("curseur.png"), pointer;   }
+h4{cursor: url("curseur.png"), pointer;   }
+
+
+
+.conteneur2 {
+    margin: auto;
+    margin-top: 1%;
+    width: 30%;
+  height:450px;
+  text-align: justify;
+    padding: 80px;
+    border: 2px solid  #fd0808 ;
+  border-radius:30px;
+    font: 16px;
+  color:  #fd0808;
+  background: white	;
+  overflow:hidden;
+  overflow: scroll;
+  }
+
+  #ctextc {
+    font-size: 165%;
+    text-align: center;
+
+  }
+
+  h5{
+      font-size: 170%;
+text-align: center;
+  }
