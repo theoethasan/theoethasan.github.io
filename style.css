@@ -22,8 +22,8 @@ nav ul{
 
 nav li{
     float: left;
-    width: 20%;/*100% divis� par le nombre d'�l�ments de menu*/
-    text-align: center;/*Centre le texte dans les �l�ments de menu*/
+    width: 20%;
+    text-align: center;
 }
 
 /*Evite que le menu n'ait une hauteur nulle*/
@@ -34,10 +34,10 @@ nav ul::after{
 }
 
 nav a{
-    display: block; /*Toute la surface sera cliquable*/
+    display: block;
     text-decoration: none;
     color: rgb(255, 255, 255);
-    border-bottom: 2px solid transparent;/*Evite le d�calage des �l�ments sous le menu � cause de la bordure en :hover*/
+    border-bottom: 2px solid transparent;
     padding: 10px 0px;/*Agrandit le menu et espace la bordure du texte*/
 }
 
@@ -175,10 +175,10 @@ margin-top: 1%;
 
 
 
-body{cursor: url("curseur.png"), pointer;   }
-p{cursor: url("curseur.png"), pointer;   }
-a{cursor: url("curseur.png"), pointer;   }
-h4{cursor: url("curseur.png"), pointer;   }
+body{cursor: url("images/curseur.png"), pointer;   }
+p{cursor: url("images/curseur.png"), pointer;   }
+a{cursor: url("images/curseur.png"), pointer;   }
+h4{cursor: url("images/curseur.png"), pointer;   }
 
 
 
